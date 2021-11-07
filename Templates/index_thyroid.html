@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<center>
+<h1 style="color:white;"> Thyroid Disease Detection API</h1>
+<img src="https://cdn.pixabay.com/photo/2016/05/18/22/28/thyroid-1401768__340.png">
+<h6 style="color:white;"> Image Source: Pixabay.com </h6>
+<body style="background-color:indigo;">
+
+<h3 style="color:white;"> Enter the below fields and our model will predict whether you have thyroidal disease.</h3>    
+
+<form action = "{{ url_for('predict')}}" method = "POST">
+    
+    <label for="fname" style="color:white;">FTI value:</label><br>
+    <input type="number" name="fti" style="font-size:16pt" required="required"/><br><br>
+
+    <label for="fname" style="color:white;">TSH value:</label><br>
+    <input type="number" name="tsh" style="font-size:16pt" required="required"/><br><br>
+
+    <label for="fname" style="color:white;">TT4 value:</label><br>
+    <input type="number" name="tt4" style="font-size:16pt" required="required"/><br><br>
+    
+    <label for="fname" style="color:white;">T4U value:</label><br>
+    <input type="number" name="t4u" style="font-size:16pt" required="required"/><br><br>
+
+    <button type="submit" class="btn btn-primary btn-block btn-Large">Predict</button>
+
+</form>
+<br>
+<h3 style="color:white;">
+{{predict}}
+</h3>
+</center>
+
+</body>
+</html>
