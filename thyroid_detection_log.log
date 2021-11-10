@@ -1,0 +1,33 @@
+2021-11-10 14:55:21 Reading the dataset.........
+2021-11-10 14:55:26 Read the dataset successfully.
+2021-11-10 14:55:26 Data preprocessing started.........
+2021-11-10 14:55:26 Extrated valuable information from the target variable.
+2021-11-10 14:55:26 Replaced all thyroidal diseases into one category.
+2021-11-10 14:55:26 Classified the target features into 0 and 1.
+2021-11-10 14:55:26 Renamed all features into understandable form.
+2021-11-10 14:55:26 Replaced all ? into Null values.
+2021-11-10 14:55:26 Droped column TBG and T3 for high missing values.
+2021-11-10 14:55:26 Droped outliers from age feature.
+2021-11-10 14:55:26 Droped outliers from TSH feature.
+2021-11-10 14:55:26 Encoded the categorical features.
+2021-11-10 14:55:26 Imputation of trainind and testing missing values with KNNImputer initiated......
+2021-11-10 14:55:27 Successfully ipmuted the missing values in train and test.
+2021-11-10 14:55:27 Created training, testing and validation dataset.
+2021-11-10 14:55:27 Initiated imputation in validation dataset.
+2021-11-10 14:55:27 Successfully imputed in validation dataset.
+2021-11-10 14:55:27 Fixing imbalanced data initiated.....
+2021-11-10 14:55:27 fixed imbalanced data in train dataset.
+2021-11-10 14:55:27 fixed imbalanced data in test dataset.
+2021-11-10 14:55:27 fixed imbalanced data in validation dataset.
+2021-11-10 14:55:27 Created pipelines for our models.
+2021-11-10 14:55:27 Selected top 4 important features.
+2021-11-10 14:55:27 Hyperparameter tuning intiated in Random Forest.......
+2021-11-10 14:55:27 Random forest training started......
+2021-11-10 14:55:46 {'random_forest__n_estimators': 400, 'random_forest__max_depth': 30}
+2021-11-10 14:55:46 Random forest trained.
+2021-11-10 14:55:46 Hyperparameter tuning intiated in XGBoost.......
+2021-11-10 14:55:46 XGBoost training started.
+2021-11-10 14:58:55 {'XGboost__n_estimators': 10000, 'XGboost__max_depth': 10, 'XGboost__learning_rate': 0.001, 'XGboost__colsample_bytree': 0.7}
+2021-11-10 14:58:55 XGBoost trained.
+2021-11-10 14:58:56 Successfully XGBoost as pickle file.
+2021-11-10 14:58:56 Sucessfully executed!
