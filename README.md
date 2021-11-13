@@ -1,6 +1,6 @@
 # Thyroid Disease Detection
 
-URL address: ec2-18-220-202-219.us-east-2.compute.amazonaws.com:8080
+URL address: http://ec2-18-220-202-219.us-east-2.compute.amazonaws.com:8080/
 
 Thyroid disease is a common cause of medical diagnosis and prediction, with an onset that is difficult to forecast in medical research. The thyroid gland is one of our body's most vital organs. Thyroid hormone releases are responsible for metabolic regulation. Hyperthyroidism and hypothyroidism are one of the two common diseases of the thyroid that releases thyroid hormones in regulating the rate of body's metabolism.
 
@@ -24,3 +24,6 @@ On Clicking the URL adrress the user will land on this homepage:-
 # Architecture:
 The architecture of this entire solution is shown below:-
 ![architecture](https://user-images.githubusercontent.com/63582471/141608211-59a70b0e-3137-4b14-ac79-d57fb95e5e05.png)
+
+# Contributer:
+Kumar Trinayan Bharadwaj
