@@ -1,0 +1,11 @@
+numpy == 1.18.1
+scikit-learn == 0.24.2
+Flask 
+gunicorn
+Jinja2
+itsdangerous
+MarkupSafe
+Werkzeug
+xgboost==0.90
+imblearn 
+pandas
