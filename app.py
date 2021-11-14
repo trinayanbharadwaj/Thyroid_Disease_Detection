@@ -12,7 +12,7 @@ def home():
 
 @app.route("/predict", methods = ["POST"])
 def predict():
-    features = [int(x) for x in request.form.values()]
+    features = [x for x in request.form.values()]
     features_np = [np.array(features)]
     pred_1 = model_rf.predict(features_np)
     pred_2 = model_xgb.predict(features_np)
