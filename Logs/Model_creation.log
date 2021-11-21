@@ -1,0 +1,19 @@
+2021-11-21 22:21:03 Reading training dataset.........
+2021-11-21 22:21:03 Read the training data successfully.
+2021-11-21 22:21:03 Reading testing dataset........
+2021-11-21 22:21:03 Read the testing data successfully.
+2021-11-21 22:21:03 Reading validation dataset........
+2021-11-21 22:21:03 Read the validation data successfully.
+2021-11-21 22:21:03 Created pipelines for our models.
+2021-11-21 22:21:03 Selected top 4 important features.
+2021-11-21 22:21:03 Hyperparameter tuning intiated in Random Forest.......
+2021-11-21 22:21:03 Random forest training started......
+2021-11-21 22:21:16 {'random_forest__n_estimators': 100, 'random_forest__max_depth': 35}
+2021-11-21 22:21:16 Random forest trained.
+2021-11-21 22:21:16 Hyperparameter tuning intiated in XGBoost.......
+2021-11-21 22:21:16 XGBoost training started.
+2021-11-21 22:21:38 {'XGboost__n_estimators': 1000, 'XGboost__max_depth': 5, 'XGboost__learning_rate': 0.005, 'XGboost__colsample_bytree': 0.9}
+2021-11-21 22:21:38 XGBoost trained.
+2021-11-21 22:21:38 Successfully saved Random forest as pickle file.
+2021-11-21 22:21:38 Successfully saved XGBoost as pickle file.
+2021-11-21 22:21:38 Sucessfully executed!

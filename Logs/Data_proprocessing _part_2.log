@@ -1,0 +1,22 @@
+2021-11-21 22:02:53 Reading the dataset.........
+2021-11-21 22:02:53 Read the dataset successfully.
+2021-11-21 22:02:53 Replaced all ? into Null values.
+2021-11-21 22:02:53 Droped column TBG and T3 for high missing values.
+2021-11-21 22:02:53 Droped outliers from age feature.
+2021-11-21 22:02:53 Droped outliers from TSH feature.
+2021-11-21 22:02:53 Encoded the categorical features.
+2021-11-21 22:02:53 Imputation of trainind and testing missing values with KNNImputer initiated......
+2021-11-21 22:02:54 Successfully imputed the missing values in train and test.
+2021-11-21 22:02:54 Created training, testing and validation dataset.
+2021-11-21 22:02:54 Initiated imputation in validation dataset.
+2021-11-21 22:02:54 Successfully imputed in validation dataset.
+2021-11-21 22:02:54 Fixing imbalanced data initiated.....
+2021-11-21 22:02:54 fixed imbalanced data in train dataset.
+2021-11-21 22:02:54 fixed imbalanced data in test dataset.
+2021-11-21 22:02:54 fixed imbalanced data in validation dataset.
+2021-11-21 22:02:54 saving the training data.....
+2021-11-21 22:02:54 Successfully saved the training data.
+2021-11-21 22:02:54 saving the testing data.....
+2021-11-21 22:02:54 Successfully saved the testing data.
+2021-11-21 22:02:54 saving the validation data......
+2021-11-21 22:02:55 Successfully saved the validation data.
