@@ -1,0 +1,40 @@
+2021-11-21 22:42:13 Reading training dataset.........
+2021-11-21 22:42:13 Read the training data successfully.
+2021-11-21 22:42:13 Reading testing dataset........
+2021-11-21 22:42:13 Read the testing data successfully.
+2021-11-21 22:42:13 Reading validation dataset........
+2021-11-21 22:42:13 Read the validation data successfully.
+2021-11-21 22:42:13 Creating the pipelines.....
+2021-11-21 22:42:13 Pipelines created.
+2021-11-21 22:42:13 Builiding an ANN model....
+2021-11-21 22:42:13 From C:\Python\Anaconda3\lib\site-packages\tensorflow\python\ops\init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2021-11-21 22:42:13 From C:\Python\Anaconda3\lib\site-packages\tensorflow\python\ops\nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2021-11-21 22:42:13 ANN built and compiled.
+2021-11-21 22:42:13 Fitting the pipelines and ANN
+2021-11-21 22:42:21 All the pipelines fitted.
+2021-11-21 22:42:25 ANN trained and validated
+2021-11-21 22:42:25 Predicting on validation data
+2021-11-21 22:42:28 Prediction done.
+2021-11-21 22:42:28 Displaying the performance metrics of all the model.......
+2021-11-21 22:42:28 Accuracy of Logistic_Regression 70.83
+2021-11-21 22:42:28 Recall of Logistic_Regression 0.68
+2021-11-21 22:42:28 ===================================================================
+2021-11-21 22:42:28 Accuracy of KNN 73.65
+2021-11-21 22:42:28 Recall of KNN 0.65
+2021-11-21 22:42:28 ===================================================================
+2021-11-21 22:42:28 Accuracy of SVC 72.71
+2021-11-21 22:42:28 Recall of SVC 0.66
+2021-11-21 22:42:28 ===================================================================
+2021-11-21 22:42:28 Accuracy of xgboost 87.11
+2021-11-21 22:42:28 Recall of xgboost 0.82
+2021-11-21 22:42:28 ===================================================================
+2021-11-21 22:42:28 Accuracy of decision_tree 83.43
+2021-11-21 22:42:28 Recall of decision_tree 0.75
+2021-11-21 22:42:28 ===================================================================
+2021-11-21 22:42:28 Accuracy of Random_forest 85.13
+2021-11-21 22:42:28 Recall of Random_forest 0.75
+2021-11-21 22:42:28 Select the best performing model and Model Selection phase is completed.
