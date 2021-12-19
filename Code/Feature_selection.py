@@ -1,6 +1,6 @@
 # Importing the necessary libraries
 import pandas as pd
-from sklearn.feature_selection import SelectKBest, f_regression
+from sklearn.feature_selection import SelectKBest, chi2
 import logging
 
 logging.basicConfig(filename="Feature_selection.log", level=logging.INFO, format='%(asctime)s %(message)s',
@@ -20,7 +20,7 @@ logging.info("Read the testing data successfully.")
 
 def feature_selection(x,y):
    
-    obj = SelectKBest(f_regression, k=4)
+    obj = SelectKBest(chi2, k=4)
     obj.fit_transform(x,y)
     filter = obj.get_support()
     feature = x.columns
