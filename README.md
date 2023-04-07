@@ -30,4 +30,4 @@ The architecture of this entire solution is shown below:-
 ![architecture](https://user-images.githubusercontent.com/63582471/141608211-59a70b0e-3137-4b14-ac79-d57fb95e5e05.png)
 
 # Contributer:
-Kumar Trinayan Bharadwaj
+Trinayan Bharadwaj
